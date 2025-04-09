@@ -1,15 +1,3 @@
-### POST request
-POST http://localhost:4000/patients
-Content-Type: application/json
-
-{
-  "name" : "Suneel",
-  "email" : "suneel@gmail.com",
-  "address" : "Sydney",
-  "dateOfBirth" : "2000-05-05",
-  "registeredDate" : "2024-10-30"
-}
-
 ###
 ### GET request
-GET https://localhost:4000/patients
+GET http://localhost:4000/patients
