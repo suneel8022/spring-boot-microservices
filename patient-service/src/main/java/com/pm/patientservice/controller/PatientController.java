@@ -52,4 +52,12 @@ public class PatientController {
 
         return ResponseEntity.ok().body(updatedPatient);
     }
+
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void>deletePatient(@PathVariable UUID id){
+        patientService.deletePatient(id);
+
+        return ResponseEntity.noContent().build();
+    }
 }
