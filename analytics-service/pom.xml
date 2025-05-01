@@ -59,6 +59,14 @@
     </dependencies>
 
     <build>
+        <extensions>
+            <!-- Ensure OS compatibility for protoc -->
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.7.0</version>
+            </extension>
+        </extensions>
         <plugins>
             <!-- Spring boot / maven  -->
             <plugin>
@@ -89,5 +97,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
