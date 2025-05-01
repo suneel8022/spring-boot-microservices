@@ -4,9 +4,9 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name" : "Bruce Banner with kafka event",
-  "email" : "test_event_bruce@marvel.com",
-  "address" : "Brooklyn",
-  "dateOfBirth" : "2018-05-15",
-  "registeredDate" : "2011-10-10"
+  "name" : "groot with kafka event",
+  "email" : "test_event_groot@marvel.com",
+  "address" : "Nowhere",
+  "dateOfBirth" : "2000-05-15",
+  "registeredDate" : "2013-10-10"
 }
