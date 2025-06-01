@@ -5,4 +5,4 @@ GET http://localhost:4000/patients
 ###
 ### request when api-gateway is enabled
 GET http://localhost:4004/api/patients
-Authorization: Bearer {{token}}
+Authorization: Bearer iuggilhllhglhgh;ih;
