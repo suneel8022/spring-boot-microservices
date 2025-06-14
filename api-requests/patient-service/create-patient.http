@@ -1,3 +1,17 @@
+## Create a Patient while deployed to production
+POST http://lb-6a617145.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name" : "Testing the prod POST endpoint",
+  "email" : "test_post_request@prod.com",
+  "address" : "LocalStack",
+  "dateOfBirth" : "2025-06-14",
+  "registeredDate" : "2013-10-10"
+}
+
+###
 ###
 ### POST request
 POST http://localhost:4000/patients
